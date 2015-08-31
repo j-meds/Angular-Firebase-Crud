@@ -1,0 +1,10 @@
+
+<div>
+<img width="100%" height="400px" ng-src="{{vm.photoInfo.img}}" />
+<button class="btn btn-default btnedit" ng-click="vm.cancel()">X</button>
+<h3>{{vm.photoInfo.name}}</h3>
+<i> By {{vm.photoInfo.artist}}</i>
+<p class="price">{{vm.photoInfo.price | currency}}</p>
+<p>{{vm.photoInfo.desc}}</p>
+<br>
+</div>

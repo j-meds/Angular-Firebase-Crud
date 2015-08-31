@@ -1,0 +1,91 @@
+.jumbotron{
+	background: linear-gradient(to bottom, #000000 0%,#26292b 52%,#3a3c3f 99%);
+    margin: 0;
+    color: white;
+    padding: 15px;
+}
+
+#searchBar{
+	display:inline;
+	width:250px;
+}
+h2{
+	margin:0;
+}
+h4{
+	margin-top:5px;
+	margin-bottom:3px;
+}
+h3{
+	margin-top:3px;
+	margin-bottom:5px;
+}
+h1{
+	display:inline;
+	margin:0;
+	text-align: center;
+}
+#addButton{
+	position:fixed;
+}
+input.ng-invalid.ng-dirty{
+	border:solid red 1px;
+}
+input.ng-valid{
+	border:solid green 1px;
+}
+.modal-content{
+	background: linear-gradient(to bottom, #131313 0%,#4f4f4f 65%,#3a3a3a 84%,#0f0f0f 100%);
+	color:white;
+}
+.price{
+	color:orange !important;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.nopadding{
+	padding:0;
+}
+.well{
+	background: linear-gradient(to bottom, #131313 0%,#4f4f4f 65%,#3a3a3a 84%,#0f0f0f 100%);
+	color:white;
+	padding-bottom: 5px;
+}
+.well:hover{
+	background: linear-gradient(to bottom, #b5bdc8 0%,#828c95 36%,#28343b 100%);
+}
+.margin-left{
+	margin-left: 10px;
+}
+.btnedit{
+	position: absolute;
+    left: 863px;
+    top: 0px;
+}
+.glyphicon-search{
+	position: absolute;
+    left: 20px;
+    top: 9px;
+    color: #494949;
+}
+.form-control{
+	padding-left:20px;
+}
+a{
+	text-decoration: none;
+	font-size: 30px;
+}
+a:hover{
+	text-decoration: none;
+	color:red;
+}
+.imgbox{
+	background-color: white;
+	cursor: pointer;
+}
+.img:hover{
+	opacity: 0.6;
+}
+

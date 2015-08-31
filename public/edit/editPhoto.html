@@ -1,0 +1,26 @@
+<h1>Edit Photo</h1><button ng-click="vm.close()" class="pull-right btn btn-danger">X</button>
+<form ng-submit="vm.addPhoto()" name="frm">	
+	<div class="form-group">Image :
+		<input type="text" class="form-control" ng-minlength="1"  ng-model="vm.photo.img" placeholder = "Image..." required>
+	</div>
+	<br>
+	<div class="form-group">Name(20 characters max) : 
+		<input type="text" class="form-control" ng-maxlength="20" ng-minlength="1"  ng-model = "vm.photo.name" placeholder = "Name.." required>
+	</div>
+	<br>
+	<div class="form-group">Name(20 characters max) : 
+		<input type="text" class="form-control" ng-maxlength="20" ng-minlength="1"  ng-model = "vm.photo.artist" placeholder = "Artist.." required>
+	</div>
+	<br>
+	<div class="form-group">Price(10 million max) :
+		<input type="number" class="form-control" ng-maxlength="8" ng-minlength="1" ng-model = "vm.photo.price" placeholder = "Price.." required>
+	</div>
+	<br>
+	<div class="form-group">Description(200 characters max) : 
+		<input type="text" class="form-control" ng-maxlength="500" ng-minlength="1"  ng-model="vm.photo.desc" placeholder = "Description..." required>
+	</div>
+	<br>
+	<div class="form-group">
+		<input type="submit" ng-disabled="frm.$invalid" value="Post Photo" class="btn btn-success btn-block" required/>
+	</div>
+</form>
